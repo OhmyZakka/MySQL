@@ -1,0 +1,7 @@
+orzdba 是淘宝一个大牛写的非常好的
+
+./orzdba -lazy -S /tmp/mysql_3306.sock -i 1
+./orzdba -innodb -S /tmp/mysql_3306.sock -i 1
+./orzdba -innodb_rows -S /tmp/mysql_3306.sock -i 1
+./orzdba -n eth0 -S /tmp/mysql_3306.sock -i 1
+./orzdba -n sys -S /tmp/mysql_3306.sock -i 1
