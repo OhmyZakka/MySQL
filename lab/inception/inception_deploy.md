@@ -10,13 +10,13 @@ node1：192.168.0.127  安装inception服务、安装mysql数据库（充当线�
 node2：192.168.0.128  安装mysql服务器（用于inception备份数据库，用于数据备分和回滚）
 
 ### 安装说明
-一、下载源码包
+一、下载源码包    
 `$ git clone https://github.com/mysql-inception/inception.git`
 
-二、安装编译时所依赖的包
+二、安装编译时所依赖的包    
 `$ yum install cmake bison  ncurses-devel gcc gcc-c++  openssl-devel`
 
-创建Inception的安装目录
+创建Inception的安装目录    
 `$ mkdir -p /usr/local/incepition   #创建的是Inception的安装目录`    
 
 三、编译安装
